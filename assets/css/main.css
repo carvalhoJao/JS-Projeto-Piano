@@ -16,7 +16,7 @@ body {
 .container {
     width: 780px;
     border-radius: 20px;
-    padding: 35px 40px;
+    padding: 20px 40px;
     background-color: #9C528B;
 }
 
@@ -30,6 +30,12 @@ body {
 header h2 {
     font-size: 1.6rem;
     font-family: 'Mochiy Pop One';
+}
+
+div h3 {
+    margin: -15px 0 5px;
+    font-family: 'Mochiy Pop One';
+    font-size: 1rem;
 }
 
 header .column {
