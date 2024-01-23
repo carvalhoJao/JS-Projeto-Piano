@@ -78,6 +78,7 @@ header .column span {
 .piano-keys {
     display: flex;
     margin-top: 40px;
+    padding: 0 40px 0 0;
 }
 
 .piano-keys .key {
@@ -123,4 +124,8 @@ header .column span {
 .piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
     background: linear-gradient(to bottom black, #1D1E2C);
+}
+
+.piano-keys .key.hide span{
+    display: none;
 }
